@@ -1,0 +1,204 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Tahoma, sans-serif;
+}
+
+a {
+    color: rgb(213, 213, 213);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.hero-wrapper, .footer {
+    background-color: #1f2937;
+}
+
+.header,
+.header-links, 
+.hero-container, 
+.elements,
+.card,
+.testimonial,
+.signup {
+    display: flex;
+    
+}
+
+.card,
+.testimonial {
+    flex-direction: column;
+}
+
+.header,
+.signup {
+    justify-content: space-between;
+}
+
+.header,
+.hero-container,
+.card {
+    align-items: center;
+}
+
+.info-text,
+.card,
+.footer {
+    text-align: center;
+}
+
+.hero-button,
+.signup-title,
+.signup-button,
+.footer {
+    color: white;
+}
+
+
+/* Header */
+.header {
+    padding: 10px;
+    margin: 0 15%;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.header-links {
+    gap: 20px;
+    font-size: 18px;
+}
+
+
+/* Hero */
+.hero-container {
+    flex: 1 1 0px;
+    margin: 0 15% 30px;
+    padding: 70px 0;
+    
+}
+
+.left {
+    margin-right: 100px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+}
+
+.hero-button {
+    border: 2px solid #3882F6;
+    background-color: #3882F6;
+    padding: 4px 24px;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+
+/* Middle */
+.info {
+    margin: 0 15%;
+}
+
+.info-text {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.elements {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.card {
+    max-width: 200px;
+    
+}
+
+
+/* Testimonial */
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 80px 20%;
+
+}
+
+.testimonial-quote, .testimonial-author {
+    padding: 0 10%;
+
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    
+}
+
+.testimonial-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* Signup */
+
+.signup {
+    background-color: #3882F6;
+    padding: 30px 90px;
+    margin: 60px 25%;
+    border-radius: 8px;
+    /* Still trying to figure this one out */
+    min-width: 400px;
+    
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup-text {
+    color: #E5E7EB;
+}
+
+.signup-button {
+    border: 2px solid #FFF;
+    background: transparent;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 30px;
+}
